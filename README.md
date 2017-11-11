@@ -1,5 +1,7 @@
 # normalize-value
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/normalize-value.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/normalize-value.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/normalize-value/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/normalize-value)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/normalize-value.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/normalize-value)
