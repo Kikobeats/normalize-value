@@ -26,7 +26,7 @@ const normalizedValue = normalizeValue(500, [
   { value: 1000, norm: 0 }
 ])
 
-console.log(normalizeValue) // => 0.5
+console.log(normalizedValue) // => 0.5
 ```
 
 ## License
