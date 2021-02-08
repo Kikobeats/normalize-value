@@ -6,9 +6,8 @@
 [![Dependency status](https://img.shields.io/david/Kikobeats/normalize-value.svg?style=flat-square)](https://david-dm.org/Kikobeats/normalize-value)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/normalize-value.svg?style=flat-square)](https://david-dm.org/Kikobeats/normalize-value#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/normalize-value.svg?style=flat-square)](https://www.npmjs.org/package/normalize-value)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/Kikobeats)
 
-> Normalizes a value according to the specified steps, using [feature scaling](https://en.m.wikipedia.org/wiki/Feature_scaling).
+> Normalizes a value according to the specified steps, using [feature scaling](https://en.wikipedia.org/wiki/Feature_scaling).
 
 ## Install
 

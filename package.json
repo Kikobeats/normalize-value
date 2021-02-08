@@ -1,7 +1,7 @@
 {
   "name": "normalize-value",
   "description": "Normalizes a value according to the specified steps, using log norm2 formula.",
-  "homepage": "https://documentup.com/Kikobeats/normalize-value",
+  "homepage": "https://nicedoc.io/Kikobeats/normalize-value",
   "version": "1.0.1",
   "main": "index.js",
   "author": {
@@ -26,9 +26,6 @@
     "value",
     "vector"
   ],
-  "dependencies": {
-    "lodash.findlastindex": "~4.6.0"
-  },
   "devDependencies": {
     "coveralls": "latest",
     "git-dirty": "latest",

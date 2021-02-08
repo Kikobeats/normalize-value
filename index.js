@@ -1,8 +1,9 @@
 'use strict'
 
-const findLastIndex = require('lodash.findlastindex')
-const { POSITIVE_INFINITY, isNaN } = Number
-const { abs } = Math
+const findLastIndex = (arr, func) => {
+  const reverseIdx = [...arr].reverse().findIndex(func)
+  return reverseIdx === -1 ? reverseIdx : arr.length - (reverseIdx + 1)
+}
 
 module.exports = (value, steps) => {
   const index = findLastIndex(steps, step => step.value <= value)
@@ -16,12 +17,10 @@ module.exports = (value, steps) => {
 
   const normalizedValue =
     stepLow.norm +
-    (stepHigh.norm - stepLow.norm) *
-      (value - stepLow.value) /
-      (stepHigh.value - stepLow.value)
+    ((stepHigh.norm - stepLow.norm) * (value - stepLow.value)) / (stepHigh.value - stepLow.value)
 
   // Invalid calculation?
-  if (isNaN(normalizedValue) || abs(normalizedValue) === POSITIVE_INFINITY) {
+  if (Number.isNaN(normalizedValue) || Math.abs(normalizedValue) === Number.POSITIVE_INFINITY) {
     throw new Error('Invalid value or steps')
   }
 
